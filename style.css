@@ -1,0 +1,175 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+
+h1{
+    font-size: 50px;
+    font-weight: 800; 
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-color{
+    color: tomato;
+} 
+
+section{
+display: flex;
+}
+
+.img-selection{
+    width: 50%;
+    
+    
+}
+
+.heif-width{
+    width: 50%;
+    line-height: 35px;
+    padding-top: 120px;
+    padding-left: 10%; 
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding:15px 40px;
+    border-radius: 15px; 
+    background-image: linear-gradient(to right, red , yellow);
+    box-shadow: 0 7px 30px 0 rgb(255 33 20 / 44%);
+
+  }
+  
+
+.eating-woman{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+    
+    
+}  
+
+.eating-woman img{
+    width: 130%;
+}
+
+.background-img{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 5%;
+
+    
+}
+
+.about-me{
+    width: 50%;
+    padding-left: 5%;
+    margin: 10%;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food-menu{
+    display: block;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.food-menu-container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.my-recipies{
+
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+ 
+}
+
+.food-card{
+    
+        box-shadow: 0 0px 28px 0 rgb(0 0 0 / 5%);
+        transition: 0.3s;
+        width: 32%;
+        border-radius: 20px;
+    
+
+}
+.food-card img {
+        width:100%;
+
+}
+
+.recipie-title{
+     padding: 5px 26px;
+  }
+
+  .food-card p{
+      padding-bottom: 16px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+ .my-recipies {
+        width: 100%;
+    }
+
+    .food-card {
+        width: 100%;
+    }
+   
+    }
+
+    .info-card{
+
+        box-shadow: 0 0px 28px 0 rgb(0 0 0 / 5%);
+        width: 90%;
+        border-radius: 20px;
+        margin: auto;
+
+    }
+
+    .youtube{
+        padding-left: 10%;
+    }
+    .dribble{
+        padding-right: 10%;
+    }
+
+    .youtube p{
+            padding-bottom: 24px;
+    }
+    .bottom{
+        background-color: rgb(27, 28, 29);
+        width: 100%;
+        padding-top: 60px;
+
+        text-align: center;
+        color: white;
+        margin-top: 80px;
+    }
+ .bottom p{
+     padding-bottom: 70px;
+ }
+
+ .hut-color{
+     color: #525252c9;
+ }
